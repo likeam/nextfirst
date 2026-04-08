@@ -1,7 +1,7 @@
 import React from "react";
 
 const Home = () => {
-  return <div className=" bg-amber-500">Home Route</div>;
+  return <div className=" bg-blue-600">Contacts Route</div>;
 };
 
 export default Home;
