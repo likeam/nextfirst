@@ -43,7 +43,7 @@ const Tasks = () => {
   ];
   return (
     <div className=" min-h-screen bg-gradient-to-br from gray-50 to to-blue-500 p-8">
-      <div className=" max-w-7xl max-auto bg-white rounded-lg shadow-sm p-8 ">
+      <div className=" max-w-7xl max-auto bg-gray-200 rounded-lg shadow-sm p-8 ">
         <h1 className=" text-3xl font-bold text-gray-900 mb-8">Tasks</h1>
         <section className=" space-y-6">
           {tasks.map((task) => (
@@ -79,8 +79,16 @@ const Tasks = () => {
                 >
                   {task.status}
                 </span>
-                <span className=" text-sm text-gray-500">
-                  Due: {task.dueDate}
+                <span className=" text-sm text-gray-500 gap-4 flex items-center">
+                  <button className=" px-4 py-2 bg-blue-300 rounded-lg text-blue-60 hover:bg-blue-200 hover:text-blue-800">
+                    Edit
+                  </button>
+                  <button className=" px-4 py-2 bg-red-300 rounded-lg text-red-600 hover:text-red-800 hover:bg-red-200">
+                    Delete
+                  </button>
+                  <span className=" text-sm text-gray-500">
+                    Due: {task.dueDate}
+                  </span>
                 </span>
               </div>
             </div>
