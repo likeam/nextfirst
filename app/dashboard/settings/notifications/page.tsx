@@ -42,6 +42,14 @@ const Notifications = () => {
             </div>
           </div>
         </div>
+        <div className="flex justify-end space-x-4">
+          <button className=" px-6 py-2 text-gray-700 bg-gray-400 rounded-lg hover:bg-gray-300 transition-colors">
+            Cancel
+          </button>
+          <button className=" px-6 py-2 text-white bg-blue-500 rounded-lg hover:bg-blue-600 transition-colors">
+            Save Changes
+          </button>
+        </div>
       </div>
     </div>
   );
