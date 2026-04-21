@@ -12,12 +12,20 @@ const Home = () => {
           Manage your tasks, track analytics, and stay organized with our
           intuitive dashboard.
         </p>
-        <Link
-          href="/dashboard"
-          className="  inline-flex items-center justify-center bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl"
-        >
-          Go to Dashboard
-        </Link>
+        <div className=" space-x-4">
+          <Link
+            href="/dashboard"
+            className="  inline-flex items-center justify-center bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl"
+          >
+            Go to Dashboard
+          </Link>
+          <Link
+            href="/login"
+            className="  inline-flex items-center justify-center bg-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors shadow-lg hover:shadow-xl"
+          >
+            Go to Login
+          </Link>
+        </div>
       </div>
     </div>
   );
