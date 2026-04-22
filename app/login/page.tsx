@@ -13,7 +13,7 @@ const Login = () => {
       <br />
       <Link
         href="/login/loginuser"
-        className=" bg-blue-600 px-4 py-2 rounded-2xl hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl"
+        className=" bg-blue-600 px-4 py-2 rounded-3xl hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl"
       >
         User Page
       </Link>
